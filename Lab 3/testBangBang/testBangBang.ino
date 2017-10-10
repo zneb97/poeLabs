@@ -20,7 +20,7 @@ int dir = 0;
 //Base speed
 float ratio = .6; //Due to physical differences in the motor
 int rBaseSpeed = 75;
-int lBaseSpeed = int(round(rBaseSpeed*ratio));
+int lBaseSpeed = 45;
 
 
 void setup() {
